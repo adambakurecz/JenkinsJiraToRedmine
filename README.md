@@ -1,1 +1,1 @@
-# aiMotive Atlassian developer intern
+# aiMotive - Atlassian developer intern
