@@ -1,3 +1,1 @@
-# JenkinsJiraToRedmine
-
-# aiMotive
+# aiMotive Atlassian developer intern
