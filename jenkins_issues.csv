@@ -1,0 +1,500 @@
+"project","Issue type","Status","Priority","Summary","Creator","Assignee","Category","Environment","Created","Due date","Estimated time","Related issues","Private"
+"Jenkins","New Feature","Open","Minor","Allow offline mode for main","gaborjbernat",,,,"2023-03-22T21:03:18.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Usability issue with Jenkins root url","pierrebtz",,,"Jenkins 2.395 + JCasc 1569.vb_72405b_80249  (reproduced with the latest LTS for core too: 2.387.1 ).","2023-03-21T15:25:55.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Users are unable to create new "My Views" without Item/Read on any job","danielbeck",,,,"2023-03-19T23:13:11.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","Search no longer treats separate terms as independent tokens","danielbeck",,,,"2023-03-18T11:50:02.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","Jenkins-agent fails to reconnect to jenkins controller (jdk 17) when redeployed in AWS ECS","vishalci",,,"OS : Amazon Linux 2
+AMI name : amzn2-ami-ecs-hvm-2.0.20230214-x86_64-ebs
+
+Same OS and ECS instance is used for jenkins controller and agents
+
+Container image used for controller : jenkins/jenkins:2.387.1-lts-jdk17
+
+Container image used for jenkins-agents : jenkins/inbound-agent:jdk17","2023-03-16T09:41:14.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Windows agent fails archiveArtifacts with error "Tag mismatch"","jcbsv",,,"Jenkins 2.387.1 running on Debian 11
+Agent environment: Windows 10, Java runtime vendor version Temurin-11.0.18+10","2023-03-16T07:38:31.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Plugins without URL have an invalid link","danielbeck",,,,"2023-03-14T11:11:18.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Form validation does not clear previous errors (regression in 2.355)","danielbeck",,,,"2023-03-14T09:11:14.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","yarn in the core build should not scan random other directories","danielbeck",,,,"2023-03-13T21:47:45.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","hudson.util.ProcessTreeTest#processProperlyKilledUnix fails on macOS","notmyfault",,,"Building core with maven 3.9.0 on eclipse temurin 19.0.2 on macOS 13.2.1","2023-03-12T09:58:36.000+0000",,,,"No"
+"Jenkins","Task","Open","Minor","Address stylelint 15.x deprecations","notmyfault",,,,"2023-03-11T17:04:38.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Build status icons misaligned in Build Time Trend view on Safari","tskrainar","0120160379",,"Jenkins: 2.394
+OS: Linux - 5.4.0-131-generic
+Java: 11.0.17 - Ubuntu (OpenJDK 64-Bit Server VM)
+---
+analysis-model-api:10.23.1
+ant:481.v7b_09e538fcca
+antisamy-markup-formatter:159.v25b_c67cd35fb_
+apache-httpcomponents-client-4-api:4.5.14-150.v7a_b_9d17134a_5
+audit-trail:333.vb_e1b_b_0f1238c
+authentication-tokens:1.4
+backgroundbuildrotator:0.9
+badge:1.9.1
+blueocean:1.27.2
+blueocean-autofavorite:1.2.5
+blueocean-bitbucket-pipeline:1.27.2
+blueocean-commons:1.27.2
+blueocean-config:1.27.2
+blueocean-core-js:1.27.2
+blueocean-dashboard:1.27.2
+blueocean-display-url:2.4.1
+blueocean-events:1.27.2
+blueocean-git-pipeline:1.27.2
+blueocean-github-pipeline:1.27.2
+blueocean-i18n:1.27.2
+blueocean-jira:1.27.2
+blueocean-jwt:1.27.2
+blueocean-personalization:1.27.2
+blueocean-pipeline-api-impl:1.27.2
+blueocean-pipeline-editor:1.27.2
+blueocean-pipeline-scm-api:1.27.2
+blueocean-rest:1.27.2
+blueocean-rest-impl:1.27.2
+blueocean-web:1.27.2
+bootstrap4-api:4.6.0-5
+bootstrap5-api:5.2.1-3
+bouncycastle-api:2.27
+branch-api:2.1071.v1a_188a_562481
+build-environment:1.7
+build-history-manager:1.6.0
+build-monitor-plugin:1.14-651.v429b_16b_db_60e
+build-name-setter:2.2.0
+build-timeout:1.28
+build-user-vars-plugin:1.9
+buildrotator:1.2
+built-on-column:1.3
+caffeine-api:2.9.3-65.v6a_47d0f4d1fe
+checks-api:1.8.1
+cloudbees-bitbucket-branch-source:796.v6cb_1559e1673
+cloudbees-disk-usage-simple:178.v1a_4d2f6359a_8
+cloudbees-folder:6.815.v0dd5a_cb_40e0e
+command-launcher:90.v669d7ccb_7c31
+commons-lang3-api:3.12.0-36.vd97de6465d5b_
+commons-text-api:1.10.0-36.vc008c8fcda_7b_
+conditional-buildstep:1.4.2
+configuration-as-code:1569.vb_72405b_80249
+confluence-publisher:136.vc30a_a_0d845d7
+copyartifact:686.v6fd37018d7c2
+credentials:1214.v1de940103927
+credentials-binding:523.vd859a_4b_122e6
+dashboard-view:2.472.v9ff2a_e6a_c529
+data-tables-api:1.12.1-4
+display-url-api:2.3.7
+docker-commons:419.v8e3cd84ef49c
+docker-workflow:563.vd5d2e5c4007f
+downstream-ext:73.vdda_16e6eb_0da
+durable-task:504.vb10d1ae5ba2f
+echarts-api:5.4.0-1
+email-ext:2.94
+enhanced-old-build-discarder:1.4
+envinject:2.901.v0038b_6471582
+envinject-api:1.199.v3ce31253ed13
+extended-read-permission:3.2
+external-monitor-job:203.v683c09d993b_9
+favorite:2.4.1
+flexible-publish:0.16.1
+font-awesome-api:6.2.1-1
+forensics-api:1.17.0
+gerrit-trigger:2.39.0
+git:5.0.0
+git-changelog:3.28
+git-client:4.1.0
+git-server:99.va_0826a_b_cdfa_d
+github:1.37.0
+github-api:1.303-417.ve35d9dd78549
+github-branch-source:1701.v00cc8184df93
+gitlab-plugin:1.7.8
+gradle:2.3.1
+greenballs:1.15.1
+groovy:453.vcdb_a_c5c99890
+groovy-postbuild:2.5
+handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
+hashicorp-vault-pipeline:1.4
+hashicorp-vault-plugin:360.v0a_1c04cf807d
+htmlpublisher:1.31
+http_request:1.16
+influxdb:3.4
+instance-identity:142.v04572ca_5b_265
+ionicons-api:31.v4757b_6987003
+jackson2-api:2.14.2-319.v37853346a_229
+jacoco:3.3.2
+jakarta-activation-api:2.0.1-3
+jakarta-mail-api:2.0.1-3
+javadoc:226.v71211feb_e7e9
+javax-activation-api:1.2.0-6
+javax-mail-api:1.6.2-8
+jaxb:2.3.8-1
+jdk-tool:63.v62d2fd4b_4793
+jenkins-design-language:1.27.2
+jenkins-multijob-plugin:623.v03401733c9a_9
+jersey2-api:2.38-1
+jira:3.9
+jjwt-api:0.11.5-77.v646c772fddb_0
+job-dsl:1.81
+job-import-plugin:3.6
+jobrequeue:1.1
+jquery:1.12.4-1
+jquery3-api:3.6.1-2
+jsch:0.1.55.61.va_e9ee26616e7
+junit:1177.v90374a_ef4d09
+ldap:659.v8ca_b_a_fe79fa_d
+lenientshutdown:1.1.1
+lockable-resources:1131.vb_7c3d377e723
+logging:1.0.0
+mailer:448.v5b_97805e3767
+mapdb-api:1.0.9-28.vf251ce40855d
+matrix-auth:3.1.6
+matrix-project:785.v06b_7f47b_c631
+matrix-reloaded:1.1.3
+maven-plugin:3.21
+mercurial:1260.vdfb_723cdcc81
+metadata:1.1.0b
+metrics:4.2.13-420.vea_2f17932dd6
+mina-sshd-api-common:2.9.2-50.va_0e1f42659a_a
+mina-sshd-api-core:2.9.2-50.va_0e1f42659a_a
+mock-slave:125.vcfb_5c627d399
+monitoring:1.92.0
+multi-slave-config-plugin:1.2.0
+nodelabelparameter:1.11.0
+okhttp-api:4.10.0-125.v3593b_a_f8c97b_
+pam-auth:1.10
+parameterized-trigger:2.45
+performance:918.v5511b_a_d40338
+perfpublisher:8.09
+permissive-script-security:0.7
+pipeline-build-step:486.vd08f550cceee
+pipeline-github-lib:38.v445716ea_edda_
+pipeline-graph-analysis:202.va_d268e64deb_3
+pipeline-groovy-lib:629.vb_5627b_ee2104
+pipeline-input-step:466.v6d0a_5df34f81
+pipeline-milestone-step:111.v449306f708b_7
+pipeline-model-api:2.2118.v31fd5b_9944b_5
+pipeline-model-definition:2.2118.v31fd5b_9944b_5
+pipeline-model-extensions:2.2118.v31fd5b_9944b_5
+pipeline-rest-api:2.31
+pipeline-stage-step:305.ve96d0205c1c6
+pipeline-stage-tags-metadata:2.2118.v31fd5b_9944b_5
+pipeline-stage-view:2.31
+pipeline-utility-steps:2.15.1
+plain-credentials:143.v1b_df8b_d3b_e48
+plugin-util-api:2.20.0
+popper-api:1.16.1-3
+popper2-api:2.11.6-2
+postbuild-task:1.9
+postbuildscript:3.2.0-460.va_fda_0fa_26720
+preSCMbuildstep:44.v6ef4fd97f56e
+prism-api:1.29.0-2
+promoted-builds:892.vd6219fc0a_efb
+publish-over:0.22
+publish-over-ssh:1.24
+pubsub-light:1.17
+purge-build-queue-plugin:88.v23b_97b_f2c7a_d
+pyenv-pipeline:2.1.2
+rebuild:1.34
+resource-disposer:0.21
+reverse-proxy-auth-plugin:1.7.4
+rich-text-publisher-plugin:1.4
+role-strategy:587.v2872c41fa_e51
+run-condition:1.5
+saferestart:0.7
+saltstack:3.2.2
+saml:4.385.v4dea_91565e9d
+scm-api:631.v9143df5b_e4a_a
+script-security:1229.v4880b_b_e905a_6
+shared-workspace:1.0.2
+sidebar-link:2.2.1
+simple-theme-plugin:146.v0e67db_a_9052e
+slack:631.v40deea_40323b
+sloccount:1.27
+snakeyaml-api:1.33-95.va_b_a_e3e47b_fa_4
+sse-gateway:1.26
+ssh:2.6.1
+ssh-agent:327.v230ecd01f86f
+ssh-credentials:305.v8f4381501156
+ssh-slaves:2.877.v365f5eb_a_b_eec
+ssh-steps:2.0.65.vd26b_5b_9b_de4d
+sshd:3.275.v9e17c10f2571
+structs:324.va_f5d6774f3a_d
+subversion:2.17.1
+test-results-analyzer:0.4.0
+thinBackup:1.15
+throttle-concurrents:2.11
+timestamper:1.22
+token-macro:321.vd7cc1f2a_52c8
+trilead-api:2.84.v72119de229b_7
+update-sites-manager:2.0.0
+variant:59.vf075fe829ccb
+versioncolumn:95.v82f3985cd6e1
+warnings-ng:9.23.1
+windows-slaves:1.8.1
+workflow-aggregator:596.v8c21c963d92d
+workflow-api:1208.v0cc7c6e0da_9e
+workflow-basic-steps:1010.vf7a_b_98e847c1
+workflow-cps:3635.vedb_8602eefa_c
+workflow-durable-task-step:1234.v019404b_3832a
+workflow-job:1282.ve6d865025906
+workflow-multibranch:733.v109046189126
+workflow-scm-step:400.v6b_89a_1317c9a_
+workflow-step-api:639.v6eca_cd8c04a_a_
+workflow-support:839.v35e2736cfd5c
+ws-cleanup:0.44
+--
+OS: macOS 12.5.1
+Safari 16.3
+Chrome 111.0.5563.64 ","2023-03-10T22:40:58.000+0000",,,,"No"
+"Jenkins","Task","Open","Major","Upgrade Jetty from 10.0.13 to 10.0.14","basil",,,,"2023-03-10T18:02:24.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Pipeline jobs sometimes fail due to being able to create <jobNo>/build.xml reporting it already exists","daveq_work",,,"Windows Server 2019
+Jenkins Version: 2.375.2
+Java Version: 11.0.17+8-LTS
+Java Flavour: Zulu JRE","2023-03-10T11:37:02.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Exception in Stapler when accessing parameters in a multipart submission","danielbeck",,,,"2023-03-08T15:53:30.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","agent connection log is empty even though agent is connected","oubrill",,,,"2023-03-06T07:04:37.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","ids in svgs do not work in symbols","timja",,,"2.393","2023-03-04T23:13:52.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Title bar for a job's recorded fingerprints just says "Jenkins"","billt",,,"Jenkins 2.319.3, unknown server, Firefox 110.0.1 running on Ubuntu","2023-03-03T17:30:08.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Creating a new credential with an existing ID returns a 302 response code instead of blocking the submission","benipeled",,,"Jenkins 2.389","2023-03-02T16:06:23.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Ability to order view tabs","dankirkd",,,"Jenkins 2.375.1","2023-03-01T21:00:11.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Improve Jetty10Provider initialization with ServletContainerInitializer","allan_burdajewicz","allan_burdajewicz",,,"2023-02-28T00:10:49.000+0000",,,,"No"
+"Jenkins","Task","Open","Minor","Remove Main.java from core","kevingrdj",,,,"2023-02-24T11:00:13.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","javax.crypto.IllegalBlockSizeException thrown intermittently when viewing console output","rmoszczy",,,"Jenkins LTS 2.375.1","2023-02-17T11:30:30.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","Class conflict between javax.mail and jakarta ","mrichar2","alecharp",,"Jenkins LTS 2.375.2
+openjdk 11.0.17
+email-ext:2.9.3
+jakarta-mail-api:2.0.1-2
+javax-mail-api:1.6.2-6
+mailer:448.v5b_97805e3767","2023-02-15T16:11:11.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Tooltips are transparent","bananeweizen",,,"Jenkins 2.389
+Firefox 102.7.0esr","2023-02-01T17:15:01.000+0000",,,,"No"
+"Jenkins","New Feature","Open","Minor","Add ability to search build logs","csm10495",,,,"2023-01-18T04:18:39.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Develop the User.CanonicalIdResolver extension point","reddwarf94",,,,"2023-01-05T14:11:31.000+0000",,,,"No"
+"Jenkins","Bug","Reopened","Minor","hpi:run uses wrong jpi/hpl from .jenkins-hpl-map","jgreffe","jgreffe",,,"2022-12-22T08:56:03.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Make user interface of plugin uploads more robust","drulli",,,,"2022-12-19T21:25:57.000+0000",,,,"No"
+"Jenkins","New Feature","Open","Minor","Admin monitor dismissal by default should be per-user","danielbeck",,,,"2022-12-15T09:31:53.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Always display time zone info in Build History date and times","dankirkd",,,"Jenkins 2.361.2","2022-12-12T23:52:28.000+0000",,,,"No"
+"Jenkins","Bug","Open","Blocker","failFast marking not_built parallel stages as failed","cincinnatus91",,,,"2022-12-12T08:27:51.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","Agent cannot be started","namuecyd",,,"Jenkins and agent are running on ubuntu 22 and java.vendor is ubuntu
+We are running Jenkins directly.
+
+Jenkins: 2.375.1
+OS: Linux - 5.15.0-56-generic
+---
+PrioritySorter:4.1.0
+ace-editor:1.1
+active-directory:2.29
+analysis-model-api:10.21.0
+ansicolor:1.0.2
+ant:481.v7b_09e538fcca
+antisamy-markup-formatter:155.v795fb_8702324
+apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61
+authentication-tokens:1.4
+badge:1.9.1
+blueocean:1.26.0
+blueocean-autofavorite:1.2.5
+blueocean-bitbucket-pipeline:1.26.0
+blueocean-commons:1.26.0
+blueocean-config:1.26.0
+blueocean-core-js:1.26.0
+blueocean-dashboard:1.26.0
+blueocean-display-url:2.4.1
+blueocean-events:1.26.0
+blueocean-git-pipeline:1.26.0
+blueocean-github-pipeline:1.26.0
+blueocean-i18n:1.26.0
+blueocean-jira:1.26.0
+blueocean-jwt:1.26.0
+blueocean-personalization:1.26.0
+blueocean-pipeline-api-impl:1.26.0
+blueocean-pipeline-editor:1.26.0
+blueocean-pipeline-scm-api:1.26.0
+blueocean-rest:1.26.0
+blueocean-rest-impl:1.26.0
+blueocean-web:1.26.0
+bootstrap4-api:4.6.0-5
+bootstrap5-api:5.2.1-3
+bouncycastle-api:2.26
+branch-api:2.1051.v9985666b_f6cc
+build-monitor-plugin:1.13+build.202205140447
+build-name-setter:2.2.0
+build-timeout:1.25
+build-user-vars-plugin:1.9
+built-on-column:1.3
+caffeine-api:2.9.3-65.v6a_47d0f4d1fe
+checks-api:1.8.0
+claim:501.v3a_4f04704b_64
+cloudbees-bitbucket-branch-source:791.vb_eea_a_476405b
+cloudbees-folder:6.800.v71307ca_b_986b
+command-launcher:90.v669d7ccb_7c31
+commons-lang3-api:3.12.0-36.vd97de6465d5b_
+commons-text-api:1.10.0-27.vb_fa_3896786a_7
+compact-columns:1.164.vb_2b_5a_b_3f19fd
+conditional-buildstep:1.4.2
+config-file-provider:3.11.1
+copyartifact:1.48
+credentials:1214.v1de940103927
+credentials-binding:523.vd859a_4b_122e6
+dashboard-view:2.466.vdfefd95a_b_f8d
+data-tables-api:1.12.1-4
+dependency-check-jenkins-plugin:5.2.1
+dependency-track:4.2.0
+description-setter:1.10
+display-url-api:2.3.6
+docker-commons:1.21
+docker-workflow:563.vd5d2e5c4007f
+dtkit-api:3.0.2
+durable-task:503.v57154d18d478
+echarts-api:5.4.0-1
+email-ext:2.92
+emailext-template:1.5
+envinject:2.892.v25453b_80e595
+envinject-api:1.199.v3ce31253ed13
+extended-read-permission:3.2
+extensible-choice-parameter:1.8.0
+external-monitor-job:203.v683c09d993b_9
+extra-columns:1.25
+ez-templates:1.3.5
+favorite:2.4.1
+font-awesome-api:6.2.1-1
+forensics-api:1.16.0
+git:4.14.2
+git-client:3.13.1
+git-parameter:0.9.18
+git-server:99.va_0826a_b_cdfa_d
+github:1.36.0
+github-api:1.303-400.v35c2d8258028
+github-branch-source:1696.v3a_7603564d04
+gitlab-plugin:1.6.0
+gradle:2.1.1
+groovy:453.vcdb_a_c5c99890
+groovy-postbuild:2.5
+handlebars:3.0.8
+handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
+htmlpublisher:1.31
+http_request:1.16
+instance-identity:142.v04572ca_5b_265
+instant-messaging:2.651.v8a_fc721a_5fe8
+ionicons-api:31.v4757b_6987003
+jabber:1.42
+jackson2-api:2.14.1-313.v504cdd45c18b
+jakarta-activation-api:2.0.1-2
+jakarta-mail-api:2.0.1-2
+javadoc:226.v71211feb_e7e9
+javax-activation-api:1.2.0-5
+javax-mail-api:1.6.2-8
+jaxb:2.3.7-1
+jdk-tool:63.v62d2fd4b_4793
+jenkins-design-language:1.26.0
+jersey2-api:2.37-1
+jira:3.8
+jjwt-api:0.11.5-77.v646c772fddb_0
+jnr-posix-api:3.1.16-1
+job-restrictions:0.8
+jquery:1.12.4-1
+jquery-detached:1.2.1
+jquery3-api:3.6.1-2
+jsch:0.1.55.61.va_e9ee26616e7
+junit:1166.va_436e268e972
+ldap:2.12
+lockable-resources:1069.v726298f53f8c
+m2release:0.16.3
+mailer:438.v02c7f0a_12fa_4
+mapdb-api:1.0.9-28.vf251ce40855d
+matrix-auth:3.1.6
+matrix-project:785.v06b_7f47b_c631
+mattermost:3.1.2
+maven-artifact-choicelistprovider:1.11.0
+maven-plugin:3.20
+mercurial:1260.vdfb_723cdcc81
+metrics:4.2.13-420.vea_2f17932dd6
+mina-sshd-api-common:2.9.2-50.va_0e1f42659a_a
+mina-sshd-api-core:2.9.2-50.va_0e1f42659a_a
+mission-control-view:0.9.16
+momentjs:1.1.1
+nodejs:1.5.1
+okhttp-api:4.9.3-108.v0feda04578cf
+pam-auth:1.10
+parameterized-trigger:2.45
+pipeline-build-step:2.18
+pipeline-github-lib:38.v445716ea_edda_
+pipeline-graph-analysis:195.v5812d95a_a_2f9
+pipeline-groovy-lib:621.vb_44ce045b_582
+pipeline-input-step:466.v6d0a_5df34f81
+pipeline-milestone-step:101.vd572fef9d926
+pipeline-model-api:2.2118.v31fd5b_9944b_5
+pipeline-model-definition:2.2118.v31fd5b_9944b_5
+pipeline-model-extensions:2.2118.v31fd5b_9944b_5
+pipeline-rest-api:2.28
+pipeline-stage-step:296.v5f6908f017a_5
+pipeline-stage-tags-metadata:2.2118.v31fd5b_9944b_5
+pipeline-stage-view:2.28
+pipeline-utility-steps:2.14.0
+plain-credentials:139.ved2b_9cf7587b
+plugin-util-api:2.20.0
+popper-api:1.16.1-3
+popper2-api:2.11.6-2
+prism-api:1.29.0-1
+pubsub-light:1.17
+release:2.15
+resource-disposer:0.20
+role-strategy:569.v7476f8e4fe29
+run-condition:1.5
+saml:4.372.v89f13e4c9e97
+scm-api:621.vda_a_b_055e58f7
+scoring-load-balancer:1.0.1
+script-security:1228.vd93135a_2fb_25
+simple-theme-plugin:136.v23a_15f86c53d
+snakeyaml-api:1.33-90.v80dcb_3814d35
+sse-gateway:1.26
+ssh-credentials:305.v8f4381501156
+ssh-slaves:2.854.v7fd446b_337c9
+ssh-steps:2.0.39.v831c5e6468b_c
+sshd:3.270.vb_a_e71e64c287
+structs:324.va_f5d6774f3a_d
+subversion:2.16.0
+timestamper:1.21
+token-macro:321.vd7cc1f2a_52c8
+trilead-api:2.84.v72119de229b_7
+variant:59.vf075fe829ccb
+versioncolumn:95.v82f3985cd6e1
+view-job-filters:2.3
+warnings-ng:9.21.0
+windows-slaves:1.8.1
+workflow-aggregator:590.v6a_d052e5a_a_b_5
+workflow-api:1200.v8005c684b_a_c6
+workflow-basic-steps:994.vd57e3ca_46d24
+workflow-cps:3565.v4b_d9b_8c29a_b_3
+workflow-durable-task-step:1217.v38306d8fa_b_5c
+workflow-job:1254.v3f64639b_11dd
+workflow-multibranch:716.vc692a_e52371b_
+workflow-scm-step:400.v6b_89a_1317c9a_
+workflow-step-api:639.v6eca_cd8c04a_a_
+workflow-support:839.v35e2736cfd5c
+ws-cleanup:0.44
+xunit:3.1.2","2022-12-12T06:33:43.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","icon size buttons row is reason for horizontal scrolling between 1170px and 1220px (regression in 2.364)","danielbeck",,,"Firefox 107.0.1","2022-12-09T23:37:58.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Unexpectedly wide sidepanel between 970px and 1170px (regression in 2.340)","danielbeck",,,"ci.jenkins.io","2022-12-09T23:29:07.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","File parameter type is not accessible via global params","irq",,,"CloudBees CI Managed Controller 2.332.4.1-rolling","2022-12-09T16:11:33.000+0000",,,,"No"
+"Jenkins","Bug","Open","Major","Custom workspace settings is not displayed correctly, it's not saved when edited","igorhx",,,"Jenkins 2.379 running under Java 11.0.16.1 on Windows Server 2016.
+Updated from 2.317 the proper way - first updated all plugins to latest versions, then Jenkins to 2.379, then again the plugins.
+List of plugins is huge, don't know how to export and attach it here. However all of them are updated to latest available versions.","2022-12-07T23:25:08.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Make placement of tooltips configurable","drulli",,,"Jenkins > 2.380","2022-12-04T11:00:44.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Updating credentials results in broken secrets when missing Item.Configure permission","kwening",,,"jenkins 2.379
+matrix-auth plugin 3.1.5","2022-12-02T15:20:39.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Generate random secret for agent connection","wfollonier",,,,"2022-11-29T08:55:14.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","workspace inuse even after all builds completed","okl",,,"Jenkins version 2.361.2 running on Debian 11 in private datacenter
+Mainly multibranch pipelines connected to github repos","2022-11-23T14:04:00.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Extract checkbox jelly implementation and css files to a web component ","targetx",,,,"2022-11-23T12:46:01.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Provide extension point in core\src\main\resources\lib\hudson\artifactList.jelly to hook plugins here","mpokornyetm",,,,"2022-11-20T21:08:03.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Manage nodes and clouds table content is not align","ridemountainpig","ridemountainpig",,"Jenkins 2.379-SNAPSHOT","2022-11-20T13:48:08.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","The full width side panel's right side is too close to the border","davidho0403","davidho0403",,,"2022-11-19T17:21:07.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Minor","Make Setup Security button and text be aligned","davidho0403","davidho0403",,,"2022-11-17T17:57:12.000+0000",,,,"No"
+"Jenkins","Bug","Open","Blocker","Build running or completed not displayed","loganmzz",,,"Jenkins 2.361.2","2022-11-16T11:00:56.000+0000",,,,"No"
+"Jenkins","Task","Open","Minor","Agent loses connection to controller","yaroslawekimov",,,"Remoting version: 3044.vb_940a_a_e4f72e
+Launcher: JNLPLauncher
+Communication Protocol: JNLP4-connect
+This is a Windows agent
+Windows Server 2016
+
+Jenkins version is Jenkins 2.361.1
+
+Jenkins controller is running inside docker agent is running via cmd","2022-11-10T11:08:44.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","It is not possible to downgrade plugins with dependents","danielbeck",,,,"2022-11-09T08:13:44.000+0000",,,,"No"
+"Jenkins","Improvement","Open","Major","The new black-and-white icons not easy to distinguish quickly","skhushalani",,,,"2022-11-07T17:17:09.000+0000",,,,"No"
