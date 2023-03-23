@@ -70,8 +70,7 @@ public class JenkinsJiraToRedmine {
                 }
                 if (!issue.getJSONObject("fields").isNull("summary")){
                     subject = issue.getJSONObject("fields").getString("summary");
-                    subject = subject.replace("\"","\\\"");
-                    subject = "\""+subject.replace(",","\\,")+"\"";
+                    subject = "\""+subject.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("creator")){
                     author = "\""+issue.getJSONObject("fields").getJSONObject("creator").getString("name")+"\"";

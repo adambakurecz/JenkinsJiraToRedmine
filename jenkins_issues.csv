@@ -1,7 +1,7 @@
 "Project","Issue type","Status","Priority","Summary","Creator","Assignee","Category","Environment","Created","Due date","Estimated time","Related issues","Private"
 "Jenkins","New Feature","Open","Minor","Allow offline mode for main","gaborjbernat",,,,"2023-03-22T21:03:18.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Usability issue with Jenkins root url","pierrebtz",,,"Jenkins 2.395 + JCasc 1569.vb_72405b_80249  (reproduced with the latest LTS for core too: 2.387.1 ).","2023-03-21T15:25:55.000+0000",,,,"No"
-"Jenkins","Bug","Open","Minor","Users are unable to create new \"My Views\" without Item/Read on any job","danielbeck",,,,"2023-03-19T23:13:11.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Users are unable to create new ""My Views"" without Item/Read on any job","danielbeck",,,,"2023-03-19T23:13:11.000+0000",,,,"No"
 "Jenkins","Bug","Open","Major","Search no longer treats separate terms as independent tokens","danielbeck",,,,"2023-03-18T11:50:02.000+0000",,,,"No"
 "Jenkins","Bug","Open","Major","Jenkins-agent fails to reconnect to jenkins controller (jdk 17) when redeployed in AWS ECS","vishalci",,,"OS : Amazon Linux 2
 AMI name : amzn2-ami-ecs-hvm-2.0.20230214-x86_64-ebs
@@ -11,7 +11,7 @@ Same OS and ECS instance is used for jenkins controller and agents
 Container image used for controller : jenkins/jenkins:2.387.1-lts-jdk17
 
 Container image used for jenkins-agents : jenkins/inbound-agent:jdk17","2023-03-16T09:41:14.000+0000",,,,"No"
-"Jenkins","Bug","Open","Minor","Windows agent fails archiveArtifacts with error \"Tag mismatch\"","jcbsv",,,"Jenkins 2.387.1 running on Debian 11
+"Jenkins","Bug","Open","Minor","Windows agent fails archiveArtifacts with error ""Tag mismatch""","jcbsv",,,"Jenkins 2.387.1 running on Debian 11
 Agent environment: Windows 10, Java runtime vendor version Temurin-11.0.18+10","2023-03-16T07:38:31.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Plugins without URL have an invalid link","danielbeck",,,,"2023-03-14T11:11:18.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Form validation does not clear previous errors (regression in 2.355)","danielbeck",,,,"2023-03-14T09:11:14.000+0000",,,,"No"
@@ -250,7 +250,7 @@ Java Flavour: Zulu JRE","2023-03-10T11:37:02.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Exception in Stapler when accessing parameters in a multipart submission","danielbeck",,,,"2023-03-08T15:53:30.000+0000",,,,"No"
 "Jenkins","Bug","Open","Major","agent connection log is empty even though agent is connected","oubrill",,,,"2023-03-06T07:04:37.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","ids in svgs do not work in symbols","timja",,,"2.393","2023-03-04T23:13:52.000+0000",,,,"No"
-"Jenkins","Bug","Open","Minor","Title bar for a job's recorded fingerprints just says \"Jenkins\"","billt",,,"Jenkins 2.319.3, unknown server, Firefox 110.0.1 running on Ubuntu","2023-03-03T17:30:08.000+0000",,,,"No"
+"Jenkins","Bug","Open","Minor","Title bar for a job's recorded fingerprints just says ""Jenkins""","billt",,,"Jenkins 2.319.3, unknown server, Firefox 110.0.1 running on Ubuntu","2023-03-03T17:30:08.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Creating a new credential with an existing ID returns a 302 response code instead of blocking the submission","benipeled",,,"Jenkins 2.389","2023-03-02T16:06:23.000+0000",,,,"No"
 "Jenkins","Improvement","Open","Minor","Ability to order view tabs","dankirkd",,,"Jenkins 2.375.1","2023-03-01T21:00:11.000+0000",,,,"No"
 "Jenkins","Improvement","Open","Minor","Improve Jetty10Provider initialization with ServletContainerInitializer","allan_burdajewicz","allan_burdajewicz",,,"2023-02-28T00:10:49.000+0000",,,,"No"
@@ -472,7 +472,7 @@ xunit:3.1.2","2022-12-12T06:33:43.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","icon size buttons row is reason for horizontal scrolling between 1170px and 1220px (regression in 2.364)","danielbeck",,,"Firefox 107.0.1","2022-12-09T23:37:58.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Unexpectedly wide sidepanel between 970px and 1170px (regression in 2.340)","danielbeck",,,"ci.jenkins.io","2022-12-09T23:29:07.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","File parameter type is not accessible via global params","irq",,,"CloudBees CI Managed Controller 2.332.4.1-rolling","2022-12-09T16:11:33.000+0000",,,,"No"
-"Jenkins","Bug","Open","Major","Custom workspace settings is not displayed correctly\, it's not saved when edited","igorhx",,,"Jenkins 2.379 running under Java 11.0.16.1 on Windows Server 2016.
+"Jenkins","Bug","Open","Major","Custom workspace settings is not displayed correctly, it's not saved when edited","igorhx",,,"Jenkins 2.379 running under Java 11.0.16.1 on Windows Server 2016.
 Updated from 2.317 the proper way - first updated all plugins to latest versions, then Jenkins to 2.379, then again the plugins.
 List of plugins is huge, don't know how to export and attach it here. However all of them are updated to latest available versions.","2022-12-07T23:25:08.000+0000",,,,"No"
 "Jenkins","Improvement","Open","Minor","Make placement of tooltips configurable","drulli",,,"Jenkins > 2.380","2022-12-04T11:00:44.000+0000",,,,"No"
