@@ -57,32 +57,40 @@ public class JenkinsJiraToRedmine {
                 String target_version = "";
                 String start_date = "";
                 if (!issue.getJSONObject("fields").isNull("project")){
-                    project = "\""+issue.getJSONObject("fields").getJSONObject("project").getString("name")+"\"";
+                    project = issue.getJSONObject("fields").getJSONObject("project").getString("name");
+                    project = "\""+project.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("issuetype")){
-                    tracker = "\""+issue.getJSONObject("fields").getJSONObject("issuetype").getString("name")+"\"";
+                    tracker = issue.getJSONObject("fields").getJSONObject("issuetype").getString("name");
+                    tracker = "\""+tracker.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("status")){
-                    status = "\""+issue.getJSONObject("fields").getJSONObject("status").getString("name")+"\"";
+                    status = issue.getJSONObject("fields").getJSONObject("status").getString("name");
+                    status = "\""+status.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("priority")){
-                    priority = "\""+issue.getJSONObject("fields").getJSONObject("priority").getString("name")+"\"";
+                    priority = issue.getJSONObject("fields").getJSONObject("priority").getString("name");
+                    priority = "\""+priority.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("summary")){
                     subject = issue.getJSONObject("fields").getString("summary");
                     subject = "\""+subject.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("creator")){
-                    author = "\""+issue.getJSONObject("fields").getJSONObject("creator").getString("name")+"\"";
+                    author = issue.getJSONObject("fields").getJSONObject("creator").getString("name");
+                    author = "\""+author.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("assignee")){
-                    assignee = "\""+issue.getJSONObject("fields").getJSONObject("assignee").getString("name")+"\"";
+                    assignee = issue.getJSONObject("fields").getJSONObject("assignee").getString("name");
+                    assignee = "\""+assignee.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("environment")){
-                    target_version  = "\""+issue.getJSONObject("fields").getString("environment")+"\"";
+                    target_version  = issue.getJSONObject("fields").getString("environment");
+                    target_version = "\""+target_version.replace("\"","\"\"")+"\"";
                 }
                 if (!issue.getJSONObject("fields").isNull("created")){
-                    start_date = "\""+issue.getJSONObject("fields").getString("created")+"\"";
+                    start_date = issue.getJSONObject("fields").getString("created");
+                    start_date = "\""+start_date.replace("\"","\"\"")+"\"";
                 }
                 // Write the issue data to the CSV file
                 writer.write(project+","+tracker+","+status+","+priority+","+subject+","+author+","+assignee+",,"+target_version+","+start_date+",,,,\"No\"\n");
