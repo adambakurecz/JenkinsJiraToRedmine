@@ -44,7 +44,7 @@ public class JenkinsJiraToRedmine {
 
             // Write the issues to a CSV file
             BufferedWriter writer = new BufferedWriter(new FileWriter(CSV_FILE_PATH));
-            writer.write("\"project\",\"Issue type\",\"Status\",\"Priority\",\"Summary\",\"Creator\",\"Assignee\",\"Category\",\"Environment\",\"Created\",\"Due date\",\"Estimated time\",\"Related issues\",\"Private\"\n");
+            writer.write("\"Project\",\"Issue type\",\"Status\",\"Priority\",\"Summary\",\"Creator\",\"Assignee\",\"Category\",\"Environment\",\"Created\",\"Due date\",\"Estimated time\",\"Related issues\",\"Private\"\n");
             for (int i = 0; i < issuesArray.length(); i++) {
                 JSONObject issue = issuesArray.getJSONObject(i);
                 String project = "";

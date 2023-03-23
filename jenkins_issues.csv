@@ -1,4 +1,4 @@
-"project","Issue type","Status","Priority","Summary","Creator","Assignee","Category","Environment","Created","Due date","Estimated time","Related issues","Private"
+"Project","Issue type","Status","Priority","Summary","Creator","Assignee","Category","Environment","Created","Due date","Estimated time","Related issues","Private"
 "Jenkins","New Feature","Open","Minor","Allow offline mode for main","gaborjbernat",,,,"2023-03-22T21:03:18.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Usability issue with Jenkins root url","pierrebtz",,,"Jenkins 2.395 + JCasc 1569.vb_72405b_80249  (reproduced with the latest LTS for core too: 2.387.1 ).","2023-03-21T15:25:55.000+0000",,,,"No"
 "Jenkins","Bug","Open","Minor","Users are unable to create new "My Views" without Item/Read on any job","danielbeck",,,,"2023-03-19T23:13:11.000+0000",,,,"No"
